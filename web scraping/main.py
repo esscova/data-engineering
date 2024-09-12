@@ -2,8 +2,6 @@ import asyncio
 from src.services import coletar_dados, salvar_csv
 from core.configs import settings
 
-###
-
 async def main():
     try:
         acoes = await coletar_dados(
